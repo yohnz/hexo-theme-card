@@ -1,0 +1,19 @@
+<footer id="footer">
+    <div class="outer">
+
+    <% if (site.posts.length) { %>
+                <div id="footer_link">
+                    友链：
+                    <% for (var i in theme.miscellaneous.links) { %>
+                            <a href="<%- theme.miscellaneous.links[i] %>"><%= i %></a>
+                    <% } %>
+                </div>
+    <% } %>
+
+        <div id="footer-info" class="inner">
+            &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %><br>
+            Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. Theme by <a href="http://github.com/yohnz">yohnz</a> base <a href="http://github.com/PPOffice">PPOffice</a>. 
+        </div>
+    </div>
+    
+</footer>
