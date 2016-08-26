@@ -4,9 +4,19 @@
 
 ###  [Preview](http://yohnz.github.io/)
 
-![](source/css/image/hexo-theme-car "")
+![](https://github.com/yohnz/hexo-theme-card/blob/master/source/css/images/hexo-theme-card.png "")
 
-#### [View Documentation](https://github.com/ppoffice/hexo-theme-icarus/wiki)
-:star: It is strongly recommended that you read the docs before using Icarus.
+### The change
+
+- set the page more wider
+- set the navigator menu support different language
+- change the style of sidebar
+- move the 'link' to the bottom
 
 
+
+### TodoList
+
+[ ]  The categories page
+
+[ ]  The tag page
