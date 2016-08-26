@@ -26,7 +26,7 @@ Pase see the original author's documentation.
 
 ### TodoList
 
-  [] The categories page
+- [ ]  The categories page
 
-  [] The tag page
+- [ ]  The tag page
 
