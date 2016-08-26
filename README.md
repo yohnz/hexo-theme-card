@@ -9,14 +9,24 @@
 ### The change
 
 - set the page more wider
+
 - set the navigator menu support different language
+
 - change the style of sidebar
+
 - move the 'link' to the bottom
+
+  ​
+
+### [Documentation](https://github.com/ppoffice/hexo-theme-icarus/wiki)
+
+Pase see the original author's documentation.
 
 
 
 ### TodoList
 
-[ ]  The categories page
+[] The categories page
 
-[ ]  The tag page
+[] The tag page
+
