@@ -1,10 +1,11 @@
 <section class="layout-wrap">
     <div class="layout-title">
-        <span><%= page.title %></span>
+        <span><%= __('menu.'+page.title) %></span>
     </div>
-    <div class="layout-wrap-inner tag-cloud">
+    <div class="layout-wrap-inner">
         <% if(site.tags.length) { %>
-            <%- tagcloud({min_font: 14, max_font: 28}) %>
+            <div class="custom-tags"><%- list_tags({show_count:false}) %></div>
         <% } %>
+        
     </div>
 </section>

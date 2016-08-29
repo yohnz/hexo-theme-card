@@ -54,6 +54,6 @@
         }).on('click', '#toTop', function () {
             $('body, html').animate({ scrollTop: 0 }, 600);
         });
-    }
+    }  
 
 })(jQuery);

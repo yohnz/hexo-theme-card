@@ -28,5 +28,5 @@ Pase see the original author's documentation.
 
 - [ ]  The categories page
 
-- [ ]  The tag page
+- [X]  The tag page
 

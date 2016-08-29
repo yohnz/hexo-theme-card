@@ -3,12 +3,17 @@
     .article:first-child
         margin: 20px 0
 
+.layout-wrap
+    background: #fff
+    min-height: 420px
+    padding:30px
+
 .archive-year-wrap,
 .archive-category-wrap,
 .archive-tag-wrap,
 .layout-title
     font-size: 1.4em
-    margin: block-margin 0 20px 0
+    margin:0 0 20px 0
     @media mq-mini
         padding: 0 15px
         font-size: 1.2em
@@ -115,10 +120,9 @@
                     color: color-sidebar-text-dark
     &.tag-cloud
         a
-            @extend $link-dark
+            
             margin-right: 8px
-            &:before
-                content: '#'
+            
 
 #page-nav
     clearfix()
@@ -148,3 +152,17 @@
         font-weight: bold
     .space
         color: color-border
+
+.custom-tags
+    .tag-list-item
+        float:left
+        line-height: 30px
+        text-align: center
+        margin:8px
+        padding:2px 10px        
+        background: #38b7ea
+        a
+            color:#fff
+            &:hover,
+            &:active
+                color:#fff;
