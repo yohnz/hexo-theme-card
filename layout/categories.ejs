@@ -4,7 +4,8 @@
     </div>
     <div class="layout-wrap-inner list-categories">
         <% if(site.categories.length) { %>
-            <%- list_categories(site.categories) %>
+            <%- list_categories({depth:0}) %>
+
         <% } %>
     </div>
 </section>
