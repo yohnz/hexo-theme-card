@@ -9,12 +9,10 @@
 ### The change
 
 - set the page more wider
-
 - set the navigator menu support different language
-
-- change the style of sidebar
-
+- modified the style of sidebar
 - move the 'link' to the bottom
+- modified the tags page
 
   ​
 
