@@ -35,13 +35,12 @@
         <footer class="article-footer">
             <%- partial('share/index', { post: post }) %>
             <%- partial('comment/counter', { post: post }) %>
-        </footer>
+        </footer>      
     </div>
     <% if (!index) { %>
         <%- partial('post/nav') %>
     <% } %>
 </article>
-
 <% if (!index) { %>
     <%- partial('comment/index') %>
 <% } %>
