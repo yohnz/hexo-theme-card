@@ -1,6 +1,11 @@
 #card
 
+### change log
+
+- add article pv counter.
+
 ### This theme is base on [hexo-theme-icarus](https://github.com/ppoffice/hexo-theme-icarus) . 
+
 ###  [Preview](http://yohnz.github.io/)
 
 ![](https://github.com/yohnz/hexo-theme-card/blob/master/source/css/images/hexo-theme-card.png "")
@@ -23,7 +28,7 @@ Pase see the original author's documentation.
 
 ### TodoList
 
-- [X]  The categories page
+- [x] The categories page
 
-- [X]  The tag page
+- [x] The tag page
 
