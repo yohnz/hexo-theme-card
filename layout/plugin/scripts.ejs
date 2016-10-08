@@ -14,6 +14,9 @@
     <% if (theme.plugins.baidu_analytics) { %>
         <%- partial('plugin/baidu-analytics') %>
     <% } %>
+     <% if (theme.plugins.tencent_analytics) { %>
+        <%- partial('plugin/tencent-analytics') %>
+    <% } %>
 <% } else { %>
     <% if (theme.plugins.lightgallery) { %>
         <%- js('vendor/lightgallery/js/lightgallery.min') %>
