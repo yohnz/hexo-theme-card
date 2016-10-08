@@ -1,7 +1,6 @@
 #card
 
-### This theme is base on [hexo-theme-icarus](https://github.com/ppoffice/hexo-theme-icarus) . It's very nice,So I made only a little change.
-
+### This theme is base on [hexo-theme-icarus](https://github.com/ppoffice/hexo-theme-icarus) . 
 ###  [Preview](http://yohnz.github.io/)
 
 ![](https://github.com/yohnz/hexo-theme-card/blob/master/source/css/images/hexo-theme-card.png "")
