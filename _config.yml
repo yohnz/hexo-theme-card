@@ -68,9 +68,9 @@ plugins:
 
 # PV
 pv:
-    enable: true
-    app_id: r0XIK1KpQzMwK3MtLwmQSQ9u-gzGzoHsz # leancloud <AppID>
-    app_key: jRmeAl8bYqUlfcOiwBboUhhR # leancloud <AppKey>
+    enable: false
+    app_id: # leancloud <AppID>
+    app_key:  # leancloud <AppKey>
 
 # Miscellaneous
 miscellaneous:
