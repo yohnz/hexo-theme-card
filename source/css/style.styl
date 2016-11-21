@@ -73,6 +73,36 @@ code
              column(main-column)
         else
             width: 100%
+.article-entry
+    table 
+        tr
+            margin: 0;
+            padding: 0;
+
+    table 
+        tr:nth-child(2n)
+            background-color: #f8f8f8;
+
+    table 
+        tr 
+            th
+                font-weight: bold;
+                border: 1px solid #ddd;
+                text-align: center;
+                margin: 0;
+                padding: 6px 13px;
+
+    table 
+        tr 
+            td
+                border: 1px solid #ddd;
+                text-align: left;
+                margin: 0;
+                padding: 6px 13px;
+     table 
+        tr 
+            td.code,td.gutter
+                border: none;
 
 @import "_extend"
 @import "_partial/header"
@@ -91,3 +121,4 @@ if sidebar is left
         float: right
     #profile
         float: right
+

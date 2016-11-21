@@ -21,7 +21,7 @@ customize:
         author_title: Web Developer
         location: 厦门, 中国
         follow: https://github.com/yohnz
-    highlight: foundation
+    highlight: github
     sidebar: right # sidebar position, options: left, right
     thumbnail: true # enable posts thumbnail, options: true, false
     favicon: # path to favicon
@@ -68,9 +68,9 @@ plugins:
 
 # PV
 pv:
-    enable: false
-    app_id: # leancloud <AppID>
-    app_key: # leancloud <AppKey>
+    enable: true
+    app_id: r0XIK1KpQzMwK3MtLwmQSQ9u-gzGzoHsz # leancloud <AppID>
+    app_key: jRmeAl8bYqUlfcOiwBboUhhR # leancloud <AppKey>
 
 # Miscellaneous
 miscellaneous:

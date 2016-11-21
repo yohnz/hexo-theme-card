@@ -28,7 +28,6 @@ article:
     comments: '评论'
     share: '分享到'
     catalogue: '文章目录'
-    pv: '浏览量'
 profile:
     follow: '关注我'
     post: '文章'
