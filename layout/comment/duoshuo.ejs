@@ -11,13 +11,16 @@
     })();
     </script>
 <% } else { %>
+    <div class="last-visitors"><div class="line"></div>&nbsp;&nbsp;最近访客</div>
+    <div class="ds-recent-visitors" data-num-items="100" data-avatar-size="30" id="ds-recent-visitors"></div>
     <div class="ds-thread" data-thread-key="<%= post.path %>" data-title="<%= post.title %>" data-url="<%= page.permalink %>"></div>
-    <style>
+    <style>        
         #ds-thread #ds-reset .ds-textarea-wrapper {
             background: none;
         }
         #ds-reset .ds-avatar img {
-            box-shadow: none;
+            // box-shadow: none;
+            border-radius:50%;
         }
         #ds-reset .ds-gradient-bg {
             background: #f7f7f7;
@@ -47,6 +50,24 @@
             box-shadow: none;
             text-shadow: none;
             font-weight: normal;
+        }
+         #ds-recent-visitors{
+             border-bottom:1px dashed #ccc;
+             padding:10px 0;
+
+         }
+        #ds-recent-visitors img{border-radius:50%;}
+        .last-visitors{
+            font-size:16px;
+            width:100%;
+            height:40px;
+            line-height:40px;
+        }
+        .last-visitors div{
+            width:5px;
+            height:40px;
+            background:#ccc;
+            float:left;
         }
     </style>
 <% } %>
