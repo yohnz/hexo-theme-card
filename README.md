@@ -2,6 +2,8 @@
 
 ### change log
 
+- add last visitors (2016/11/30)
+  ![](http://7xn0vc.com1.z0.glb.clouddn.com/blog/visitors.png "last visitors")
 - add article pv counter.
 
 ### This theme is base on [hexo-theme-icarus](https://github.com/ppoffice/hexo-theme-icarus) . 
